@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find mbsrobot)/launch/lidar/$(env MBSLIDAR).launch" />
+  <include file="$(find mbsrobot)/param/navigation/slam_gmapping.xml" />
+  <include file="$(find mbsrobot)/param/navigation/move_base.xml" />
+</launch>
